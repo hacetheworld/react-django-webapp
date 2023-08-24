@@ -1,0 +1,65 @@
+/* App.css */
+
+.App {
+  background: linear-gradient(to bottom, #3498db, #2980b9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.App-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Center content horizontally and vertically */
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style the list container */
+.todo-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the individual todo items */
+.todo-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the todo text */
+.todo-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Style the delete button */
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
